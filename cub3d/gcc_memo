@@ -1,0 +1,16 @@
+gcc ./srcs/main.c srcs/utils/error_hundling.c srcs/utils/cub_key_hook.c srcs/utils/cub_map.c srcs/cub_calc.c srcs/utils/cub_value.c srcs/cub_key.c -I./gnl -L./gnl -lgnl -L./libft -lft  -L./minilibx-linux -lmlx  -lXext -lX11 -lm
+
+
+ gcc
+  ./gnl/get_next_line.c
+   gnl/get_next_line_utils.c
+	./srcs/main.c srcs/utils/error_hundling.c
+	srcs/utils/cub_key_hook.c
+	 srcs/utils/cub_map.c
+	  srcs/cub_calc.c
+	  srcs/utils/cub_value.c 
+	  srcs/cub_key.c 
+	  -I./gnl -L./gnl -lgnl 
+	  -L./libft -lft  
+	  
+	  -L./minilibx-linux -lmlx  -lXext -lX11 -lm
